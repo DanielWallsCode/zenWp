@@ -1,0 +1,54 @@
+.contacto{
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    background-color: rgb(238, 237, 254);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+ .contacto .aside-form form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+ .contacto .aside-form h4{
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+ .contacto .aside-form form input{
+    border-radius: 5px;
+    border: solid 1px rgb(169, 169, 169);
+    padding: 5px;
+    outline: none;
+    margin-top: 20px;
+    width: 400px;
+    height: 40px;
+}
+
+ .contacto .aside-form form textarea{
+    margin-top: 20px;
+    border-radius: 5px;
+    border: solid 1px rgb(169, 169, 169);
+    padding: 5px;
+    
+}
+
+ .contacto .aside-form form button{
+    width: 120px;
+    color: #ffffff;
+    background-color: #181818;
+    border: none;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+ .contacto .text img{
+    width: 300px;
+}

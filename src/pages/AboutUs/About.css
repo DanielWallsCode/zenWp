@@ -1,0 +1,24 @@
+.main{
+    margin: 20px;
+    padding: 20px;
+}
+
+.main .sobre-nosotros{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main .leftContainer h2{
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.main .leftContainer p{
+    max-width: 600px;
+    font-size: 20px;
+}
+
+.main .rightContainer img{
+    height: 250px;
+}

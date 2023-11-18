@@ -1,0 +1,30 @@
+
+header{
+    position: fixed;
+    width: 100vw;
+    border-bottom: solid 0.1px rgb(156, 156, 156);
+    background-color: white;
+}
+
+header nav{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+header nav img{
+    width: 30px;
+}
+
+header nav .enlaces a{
+    color: black;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header nav .enlaces a:hover{
+    color: rgb(112, 35, 243);
+}
+
