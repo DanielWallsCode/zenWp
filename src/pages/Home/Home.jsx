@@ -11,12 +11,12 @@ const Home = () => {
 
       <Header />
 
-      <Portada portada={'https://ethereum.org/static/28214bb68eb5445dcb063a72535bc90c/5a3c8/hero.webp'} />
+      <Portada portada={'/ZENWP-P.png'} />
 
       <div className='bienvenida'>
         <h2>Bienvenidos a ZenWP</h2>
-        <p>Ethereum es la tecnología de gestión comunitaria que impulsa la criptomoneda ether (ETH) y miles de aplicaciones descentralizadas.</p>
-        <a href="#">Explora los planes</a>
+        <p>¡Bienvenidos a ZenWP! Transformamos tu visión en una experiencia digital única. ¡Descubre el arte de la presencia online con nosotros</p>
+        <Link to="/servicios">Explora los planes</Link>
         {/* color 1c1cff */}
       </div>
 
@@ -24,20 +24,20 @@ const Home = () => {
         <div className='empezar'>
           <div className='text'>
             <h3>Empezar</h3>
-            <p>Ethereum.org es su portal de entrada al mundo de Ethereum. Esta tecnología es nueva y está en constante evolución, por eso ayuda tener una guía. Estas son nuestras recomendaciones para adentrarse en este mundo.</p>
+            <p>Donde tu visión cobra vida en el mundo digital En nuestro viaje hacia la excelencia web, cada clic es una oportunidad para crear una experiencia única. ¿Listo para dar el primer paso hacia una presencia online impactante? Descubre el arte de la web con ZenWP.</p>
           </div>
-          <img src="https://ethereum.org/static/9a6e158f4ffd1cb5de246a3ecd0d7f86/3e9a3/hackathon_transparent.webp" alt="" />
+          <img src="https://www.juicy-studio.cat/wp-content/uploads/2021/02/programer.png" alt="" />
         </div>
 
         <div className="cards">
           <Link to='/servicios' >
             <div className="card">
               <div className="card-header">
-                <img src="https://ethereum.org/static/810eb64d89629231aa4d8c7fe5f20ee5/d5009/developers-eth-blocks.webp" alt="" />
+                <img src="https://ethereum.org/static/ddb9a22d53fdaaae70c0a0d94577f2aa/4e6ed/eth.webp" alt="" />
               </div>
               <div className="card-body">
                 <h2>Diseño Web PYME</h2>
-                <p>Una Cartera permite que se conecte a etherum y administre sus fondos</p>
+                <p>Potencia tu presencia online con ZenWP. Diseño web Pyme que destaca. ¡Haz que tu negocio brille en la web!</p>
               </div>
             </div>
           </Link>
@@ -49,7 +49,7 @@ const Home = () => {
               </div>
               <div className="card-body">
                 <h2>Diseño Web E-Commerce</h2>
-                <p>Una Cartera permite que se conecte a etherum y administre sus fondos</p>
+                <p>¡Eleva tu tienda online con ZenWP! Diseño e-commerce que convierte visitantes en clientes. Potencia tus ventas con estilo y funcionalidad.</p>
               </div>
             </div>
           </Link>
@@ -57,13 +57,13 @@ const Home = () => {
 
         <div className='portafolio'>
           <div className='aside-image'>
-            <img src="https://ethereum.org/static/e7a074a56d991c4f9e65857bafa0f053/4f889/what-is-ethereum.webp" alt="" />
+            <img src="https://playfulagency.com/wp-content/uploads/2022/01/Programacion-web.png" alt="" />
           </div>
 
           <div className='text'>
-            <h3>¿Qué es Ethereum?</h3>
-            <p>Ethereum es una tecnología que alberga dinero digital, pagos globales y aplicaciones. La comunidad ha construido una próspera economía digital, nuevas formas audaces para que los creadores ganen en línea y mucho más. Está abierto a todos, al margen del lugar donde estén; lo único que se necesita es tener internet.</p>
-            <a href="#">Ver Portafolio</a>
+            <h3>¿Qué es ZenWP?</h3>
+            <p>ZenWP es más que una agencia de diseño web; es tu socio digital en la creación de experiencias impactantes. En el corazón de nuestro enfoque se encuentra la fusión armoniosa de creatividad y funcionalidad. Somos artesanos digitales, dando forma a tu visión con maestría técnica. Desde sitios web cautivadores hasta soluciones online poderosas, en ZenWP, transformamos ideas en realidad digital. Descubre la esencia de la excelencia web con nosotros.</p>
+            <Link to={'/about'}>Sobre Nosotros</Link>
           </div>
         </div>
 
@@ -112,7 +112,7 @@ const Home = () => {
           </div>
         </div>
 
-       <FormContact />
+        <FormContact />
 
         <Footer />
 

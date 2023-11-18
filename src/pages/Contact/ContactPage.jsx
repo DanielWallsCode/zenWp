@@ -9,7 +9,7 @@ const ContactPage = () => {
   return (
     <div>
       <Header />
-      <Portada portada={'https://ethereum.org/static/3fb3be63b1a2ed5a6fd41a8e7e50054f/72aca/learn-hub-hero.webp'}/>
+      <Portada portada={'/ZEN-WP-CONTACTO.png'}/>
 
       <FormContact />
       <Footer />

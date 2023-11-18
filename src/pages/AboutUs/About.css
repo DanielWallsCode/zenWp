@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .main .leftContainer h2{
@@ -21,4 +22,10 @@
 
 .main .rightContainer img{
     height: 250px;
+}
+
+@media screen and (max-width: 400px){
+    .main .leftContainer p{
+        font-size: 15px;
+    }
 }

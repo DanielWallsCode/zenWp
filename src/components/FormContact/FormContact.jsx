@@ -15,7 +15,7 @@ const FormContact = () => {
             </div>
 
             <div className='text'>
-                <img src="https://ethereum.org/static/0453c88b09ddaa2c7e7552840c650ad2/82fa5/finance_transparent.webp" alt="" />
+                <img src="https://number8.com/app/uploads/2023/06/5-Programming-Languages-for-Beginners.png" alt="" />
             </div>
         </div>
     )

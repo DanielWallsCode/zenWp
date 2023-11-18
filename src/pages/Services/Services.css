@@ -63,3 +63,24 @@
     text-align: center;
     height: 30px;
 }
+
+@media screen and (max-width: 600px){
+    .main .cards .card{
+        width: 360px;
+    }
+
+    .main .cards .card .card-header img{
+        width: 350px;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    .main .cards .card{
+        width: 300px;
+    }
+
+    .main .cards .card .card-header img{
+        width: 210px;
+    }
+}

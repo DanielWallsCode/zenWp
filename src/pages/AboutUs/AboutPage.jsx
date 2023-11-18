@@ -8,13 +8,13 @@ const AboutPage = () => {
     return (
         <>
             <Header />
-            <Portada portada={'https://ethereum.org/static/09e380704886412222a4bf3755787be6/72aca/developers-hub-hero.webp'} />
+            <Portada portada={'/ZEN-WP-ABOUT.png'} />
 
             <section className="main">
                 <div className="sobre-nosotros">
                     <div className="leftContainer">
                         <h2>Sobre Nosotros</h2>
-                        <p>ethereum.org está aquí para ayudarle a desarrollar con Ethereum gracias a documentación sobre conceptos fundamentales, así como sobre la pila de desarrollo. Además, dispone de tutoriales para ayudarle a ponerse en marcha. <br /> Con la inspiración de Mozilla Developer Network, pensamos que Ethereum necesitaba un lugar donde albergar el mejor contenido y los más destacados recursos para desarrolladores. Al igual que en el caso de nuestros amigos de Mozilla, todo aquí es de código abierto y disponible para que lo pueda ampliar y mejorar. Si tiene algún comentario, póngase en contacto con nosotros creando una incidencia de GitHub o accediendo a nuestro servidor de Discord. Unirse a Discord(opens in a new tab)</p>
+                        <p>En ZenWP, somos un equipo apasionado de profesionales digitales que fusionan la creatividad con la tecnología. Nos dedicamos a convertir visiones en realidades digitales, y cada proyecto es una expresión de nuestro compromiso con la excelencia. Nuestra misión es impulsar tu presencia en línea mediante diseños cautivadores y soluciones innovadoras. Con una combinación única de habilidades y enfoque colaborativo, en ZenWP estamos listos para superar tus expectativas y llevarte al siguiente nivel digital. Conócenos más allá de las palabras, descubre la historia detrás de ZenWP y únete a nosotros en el viaje hacia el éxito digital.</p>
                     </div>
 
                     <div className="rightContainer">

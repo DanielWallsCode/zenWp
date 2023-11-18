@@ -1,8 +1,8 @@
-a{
+a {
     text-decoration: none;
 }
 
-.bienvenida{
+.bienvenida {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,18 +10,18 @@ a{
     margin: 30px;
 }
 
-.bienvenida h2{
+.bienvenida h2 {
     font-size: 45px;
+    text-align: center;
 }
 
-.bienvenida p{
+.bienvenida p {
     max-width: 630px;
     text-align: center;
     font-size: 20px;
-    margin: 10px;
 }
 
-.bienvenida a{
+.bienvenida a {
     padding: 10px;
     background-color: #1C1CFF;
     border-radius: 5px;
@@ -31,67 +31,76 @@ a{
     font-size: 18px;
 }
 
-.bienvenida a:hover{
+.bienvenida a:hover {
     filter: opacity(75%);
 }
 
-.servicios .empezar{
+.servicios .empezar {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
+    align-content: center;
+    padding: 20px;
 }
 
-.servicios .empezar .text p{
+.servicios .empezar .text p {
     font-size: 20px;
     width: 450px;
     margin-right: 50px;
 }
 
-.servicios .empezar .text h3{
+.servicios .empezar .text h3 {
     font-size: 30px;
     font-weight: bolder;
     padding-bottom: 40px;
 }
 
-.servicios .cards{
+.servicios .empezar img {
+    width: 30%;
+}
+
+.servicios .cards {
     display: flex;
     margin: 20px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.servicios .cards .card{
+.servicios .cards .card {
     display: flex;
     border: solid 1px rgb(121, 121, 121);
     width: 560px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 10px;
     margin: 20px;
 }
 
-.servicios .cards .card .card-header{
+.servicios .cards .card .card-header {
     background-color: rgb(232, 238, 248);
 }
 
-.servicios .cards .card .card-header img{
+.servicios .cards .card .card-header img {
     object-fit: contain;
     width: 550px;
     height: 200px;
 }
 
-.servicios .cards .card .card-body h2{
-    margin: 20px 0; 
+.servicios .cards .card .card-body h2 {
+    margin: 20px 0;
     color: #181818;
 }
 
-.servicios .cards .card .card-body p{
+.servicios .cards .card .card-body p {
     padding-bottom: 40px;
     color: #585858;
 }
 
-.servicios .portafolio{
-    border-top: solid 1px black;
+.servicios .portafolio {
+    border-top: solid 1px rgb(106, 106, 106);
     border-bottom: solid 1px black;
     background-color: rgb(254, 237, 238);
     width: 100%;
@@ -100,17 +109,21 @@ a{
     align-items: center;
 }
 
-.servicios .portafolio .text h3{
+.servicios .portafolio .text {
+    padding: 30px;
+}
+
+.servicios .portafolio .text h3 {
     font-size: 30px;
     margin-bottom: 20px;
 }
 
-.servicios .portafolio .text p{
+.servicios .portafolio .text p {
     font-size: 20px;
     margin-bottom: 20px;
 }
 
-.servicios .portafolio .text a{
+.servicios .portafolio .text a {
     padding: 10px;
     background-color: #1C1CFF;
     border-radius: 5px;
@@ -119,20 +132,25 @@ a{
     font-size: 18px;
 }
 
-.subtitle{
+.servicios .portafolio .aside-image img {
+    width: 850px;
+}
+
+.subtitle {
     text-align: center;
     font-weight: bold;
     margin: 20px 0;
     font-size: 30px;
 }
 
-.resenas{
+.resenas {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.resenas .resena{
+.resenas .resena {
     display: flex;
     flex-direction: column;
     width: 350px;
@@ -143,21 +161,93 @@ a{
     padding: 20px;
 }
 
-.resenas .resena .resena-header{
+.resenas .resena .resena-header {
     display: flex;
 }
 
-.resenas .resena .resena-header img{
+.resenas .resena .resena-header img {
     height: 30px;
     margin-right: 10px;
 }
 
-.resenas .resena .resena-body{
+.resenas .resena .resena-body {
     margin-top: 10px;
 }
 
-.resenas .resena .resena-body p{
-   font-size: 13px;
+.resenas .resena .resena-body p {
+    font-size: 13px;
+}
+
+@media screen and (max-width: 900px) {
+    .servicios .portafolio .aside-image img {
+        width: 600px;
+    }
+
+    .servicios .portafolio {
+        flex-wrap: wrap;
+    }
 }
 
 
+@media screen and (max-width: 650px) {
+    .servicios .empezar {
+        flex-direction: column;
+    }
+
+    .servicios .cards .card {
+        width: 400px;
+    }
+    .servicios .cards .card .card-header img {
+        width: 400px;
+    }
+
+    .servicios .portafolio .aside-image img {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .servicios .empezar {
+        flex-direction: column;
+    }
+
+    .servicios .empezar img {
+        width: 50%;
+    }
+
+    .servicios .cards .card {
+        width: 350px;
+    }
+    .servicios .cards .card .card-header img {
+        width: 350px;
+    }
+
+    .bienvenida h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .servicios .empezar .text{
+        width: 300px;
+    }
+
+    .servicios .empezar .text p{
+        margin-right: 0px;
+        font-size: 15px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .servicios .cards .card {
+        width: 270px;
+    }
+
+    .servicios .cards .card .card-header img{
+        width: 270px;
+    }
+
+    .resenas .resena .resena-body p{
+        font-size: 10px;
+    }
+}
