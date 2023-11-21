@@ -30,7 +30,7 @@ header nav .enlaces a:hover{
 
 @media screen and (max-width: 560px){
     header nav .enlaces a{
-        font-size: 10px;
+        font-size: 12px;
         margin-right: 5px;
     }
 

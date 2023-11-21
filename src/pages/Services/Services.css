@@ -90,6 +90,7 @@ a{
 @media screen and (max-width: 400px){
     .main .cards .card{
         width: 300px;
+        height: auto;
     }
 
     .main .cards .card .card-header img{
