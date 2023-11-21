@@ -7,11 +7,12 @@ const Header = () => {
             <nav>
                 <div className="enlaces">
                     <Link to='/'>Inicio</Link>
-                    <Link to='/about'>Sobre Nosotros</Link>
+                    <Link to='/acerca'>Sobre Nosotros</Link>
                     <Link to='/servicios'>Servicios</Link>
-                    <Link to='/contact'>Contacto</Link>
+                    <Link to='/aprender'>Aprender</Link>
+                    <Link to='/contacto'>Contacto</Link>
                 </div>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ethereum-icon-purple.svg/800px-Ethereum-icon-purple.svg.png" alt="" />
+                <img src="/zenWP.png" alt="" />
             </nav>
         </header>
     )

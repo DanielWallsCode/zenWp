@@ -5,6 +5,7 @@ import ContactPage from './pages/Contact/ContactPage'
 import Planpage from './pages/planes/Plan'
 import Services from './pages/Services/Services'
 import NotFound from './pages/NotFound/NotFound'
+import Learn from './pages/Learn/Learn'
 
 function App() {
 
@@ -13,10 +14,11 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/about' element={<AboutPage/>}/>
-        <Route path='/contact' element={<ContactPage/>}/>
+        <Route path='/acerca' element={<AboutPage/>}/>
+        <Route path='/contacto' element={<ContactPage/>}/>
         <Route path='/planes' element={<Planpage/>}/>
         <Route path='/servicios' element={<Services />} />
+        <Route path='/aprender' element={<Learn />}/>
         <Route path='/*' element={<NotFound/>}/>
       </Routes>
     </BrowserRouter>

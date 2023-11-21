@@ -15,3 +15,13 @@ footer .right-container a{
 footer .right-container a:hover{
     color: #ccc;
 }
+
+@media screen and (max-width: 500px) {
+    footer{
+        font-size: 10px;
+    }
+
+    footer .right-container a{
+        margin-right: 5px;
+    }
+}

@@ -21,6 +21,11 @@ const Home = () => {
       </div>
 
       <div className="servicios">
+
+        <div className="boton-flotante">
+          <a href="https://wa.me/51948741728"><img src="https://hostingroup.pe/wp-content/uploads/2020/09/whatsapp-chat.png" alt="" /></a>
+        </div>
+
         <div className='empezar'>
           <div className='text'>
             <h3>Empezar</h3>
@@ -30,26 +35,26 @@ const Home = () => {
         </div>
 
         <div className="cards">
-          <Link to='/servicios' >
+          <Link to='/servicios/#desarrollo' >
             <div className="card">
               <div className="card-header">
-                <img src="https://ethereum.org/static/ddb9a22d53fdaaae70c0a0d94577f2aa/4e6ed/eth.webp" alt="" />
+                <img src="https://visualtec.host/templates/default/frontend/img/demo-content/images/design.png" alt="" />
               </div>
               <div className="card-body">
-                <h2>Diseño Web PYME</h2>
-                <p>Potencia tu presencia online con ZenWP. Diseño web Pyme que destaca. ¡Haz que tu negocio brille en la web!</p>
+                <h2>Desarrollo de Paginas Web</h2>
+                <p>Potencia tu presencia online con ZenWP. Desarrollo de paginas web para empresas y tiendas en linea. ¡Haz que tu negocio brille en la web!</p>
               </div>
             </div>
           </Link>
 
-          <Link to='/servicios' >
+          <Link to='/servicios/#marketing' >
             <div className="card">
               <div className="card-header">
-                <img src="https://ethereum.org/static/5dea0acbc8484c42006d7bbed32fa019/5ac00/doge-computer.webp" alt="" />
+                <img src="https://brainfoodmkt.com/wp-content/uploads/2022/12/agencia-de-marketing-digital-en-cdmx-1024x683.png" alt="" />
               </div>
               <div className="card-body">
-                <h2>Diseño Web E-Commerce</h2>
-                <p>¡Eleva tu tienda online con ZenWP! Diseño e-commerce que convierte visitantes en clientes. Potencia tus ventas con estilo y funcionalidad.</p>
+                <h2>Marketing Digital</h2>
+                <p>¡Eleva tu negocio con publicidad en redes sociales Potencia tus ventas con estilo y funcionalidad.</p>
               </div>
             </div>
           </Link>
@@ -62,8 +67,8 @@ const Home = () => {
 
           <div className='text'>
             <h3>¿Qué es ZenWP?</h3>
-            <p>ZenWP es más que una agencia de diseño web; es tu socio digital en la creación de experiencias impactantes. En el corazón de nuestro enfoque se encuentra la fusión armoniosa de creatividad y funcionalidad. Somos artesanos digitales, dando forma a tu visión con maestría técnica. Desde sitios web cautivadores hasta soluciones online poderosas, en ZenWP, transformamos ideas en realidad digital. Descubre la esencia de la excelencia web con nosotros.</p>
-            <Link to={'/about'}>Sobre Nosotros</Link>
+            <p>ZenWP es más que una agencia de diseño web es tu socio digital en la creación de experiencias impactantes. En el corazón de nuestro enfoque se encuentra la fusión armoniosa de creatividad y funcionalidad. Somos artesanos digitales, dando forma a tu visión con maestría técnica. Desde sitios web cautivadores hasta soluciones online poderosas, en ZenWP, transformamos ideas en realidad digital. Descubre la esencia de la excelencia web con nosotros.</p>
+            <Link to={'/acerca'}>Sobre Nosotros</Link>
           </div>
         </div>
 

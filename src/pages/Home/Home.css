@@ -2,6 +2,19 @@ a {
     text-decoration: none;
 }
 
+.boton-flotante{
+    position: absolute;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 120;
+    padding: 30px;
+}
+
+.boton-flotante img{
+    height: 80px;
+}
+
 .bienvenida {
     display: flex;
     flex-direction: column;
@@ -204,6 +217,11 @@ a {
     .servicios .portafolio .aside-image img {
         width: 350px;
     }
+
+    .boton-flotante img{
+        height: 60px;
+    }
+
 }
 
 @media screen and (max-width: 500px) {
